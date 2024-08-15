@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Angular(15) Execution Flow",
+        "answer": "Angular application execution starts from Main.ts file. In main.ts there is bootstrapModule and boostraps the AppModule which is inside bootstrapModule(AppModule). AppModule contains the @ngModule where it has metadata and boostraps appComponent which is present in boostrap:[AppComponent] here appComponent is the root component and seves as top-level container of our UI and our component loadig starts from app component template where we will configure our router-outlet. When we keep router-outlet it will take of loading the components from app.routing.ts file where we have the routes array after import appRoutingModule in appModule. In this routing we can customize as per out routinng requiremnt like we can restrict users for specific routes using canActivate and can load the data before the component loads. Ex: I want userIdentity should execute and based on these roles i want to perform some opeartions. So can implement resolve here to implement these all. ",
+        "isAsked": false
+    },
+    {
+        "question": "Performance optimization techniques in angular",
+        "answer": "",
+        "isAsked": false
+    }
+]

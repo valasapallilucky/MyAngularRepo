@@ -1,0 +1,42 @@
+<div>
+    <div class="output-content" *ngIf="maxResult">Largest number is {{maxResult}}</div>
+    <div class="output-content">
+        <div class="title">{{factTitle}}</div>
+        <input type="textbox" class="input" [(ngModel)]="inputNumber">
+        <button (click)="checkFactorial(inputNumber)">Factorial</button>
+        <div *ngIf="result"><span> Factorial of {{inputNumber}} is {{result}}</span></div>
+    </div>
+    <div class="output-content">
+        <div class="title">{{PallendromeTitle}}</div>
+        <input type="textbox" class="input" [(ngModel)]="pallendrome">
+        <button (click)="checkPallendrome(pallendrome)">Check Pallendrome</button>
+        <div *ngIf="pallendromeResult"><span>{{pallendromeResult}} </span></div>
+    </div>
+    <div class="output-content">
+        <div class="title">{{checkAnangram}}</div>
+        <input type="textbox" class="input" [(ngModel)]="anagramVal1">
+        <input type="textbox" class="input" [(ngModel)]="anagramVal2">
+        <button (click)="checkAnagram()">Anangram</button>
+        <div><span *ngIf="anagramResult"> Words are {{anagramResult}}</span></div>
+    </div>
+    <div class="output-content">
+        <div class="title">{{tables}}</div>
+        <input type="textbox" class="input" [(ngModel)]="input" placeholder="Give number of tables">
+        <input type="textbox" class="input" [(ngModel)]="tableLength" placeholder="Give Number of rows">
+        <button (click)="displayTables()">Get Tables</button>
+        <div class="table-container">
+        <!-- <div *ngFor="let tab of tabArr; let i=index;" class="table" >
+            <div>Table {{i+1}}</div>
+            <div *ngFor="let value of tab;let j" >
+                <div>{{value}}</div>
+            </div>
+            </div> -->
+            <div *ngFor="let table of tabArr; let i=index" class="table">
+                <div>Table {{i+1}}</div>
+                <div *ngFor="let value of table">
+                    <div>{{value}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

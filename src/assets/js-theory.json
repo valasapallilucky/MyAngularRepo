@@ -1,0 +1,46 @@
+[
+    {
+    "question":"What is Javascript?",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"ES6 Features",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"Hoisting with examples",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"'this' keyword in javascript with examples",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"Arrow functions with examples",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"Speciality of 'this' in arrow functions",
+    "answer":"", 
+    "isAsked":false
+},
+{
+    "question":"'spread','rest','set' in javascript?",
+    "answer":"Spread operator generally we use to merge the array/object, copy the array/object, passing arguments to the function. Rest is to gather the arguments. Ex: Logging example  Refer spread Example in programing.", 
+    "isAsked":false
+},
+{
+    "question":"Speciality of 'this' in arrow functions",
+    "answer":"", 
+    "isAsked":false
+}, {
+    "question":"Speciality of 'this' in arrow functions",
+    "answer":"", 
+    "isAsked":false
+}
+]

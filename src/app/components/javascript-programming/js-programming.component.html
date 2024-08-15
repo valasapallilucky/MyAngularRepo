@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="sidebar">
+        <div class="javascript">
+            <div>
+                <ul *ngFor="let program of programsList">
+                    <li> <a (click)="executeProgram(program)"><p [innerHTML]="program">{{program}}</p></a></li>
+                </ul>
+            </div>
+            </div>
+                </div>
+    <div class="content">
+        <app-output [maxResult]="maxResult"></app-output>
+    </div>
+</div>

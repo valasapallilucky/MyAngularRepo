@@ -1,0 +1,12 @@
+<div class="toolbar">
+    <div class="logo">Frontend Programmer</div>
+    <nav class="nav-links">
+        <ng-container *ngFor="let item of menuItems">
+            <a [routerLink]="item.link">{{item.name}}</a>
+        </ng-container>
+    </nav>
+</div>
+<router-outlet></router-outlet>
+<!-- <mat-toolbar>
+        <span>JDMessenger</span>
+    </mat-toolbar> -->

@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.toolbar{
+    background-color:rgb(84, 84, 230);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    margin:15px;
+// align-items: left;
+}
+.nav-links{
+    display: flex;
+    position: absolute;
+    left:30%;
+}
+.nav-links a{
+    color:white;
+    margin:0px 20px;
+}
+.nav-links a:hover{
+cursor:pointer;
+}
+.javascript{
+    // background-color: green;
+}
+.container{
+    display: flex;
+}
+.output-content{
+    margin-top:10px;
+}
+.input{
+    margin-right: 10px;
+}
+.title{
+    font-weight: bold;
+    font-size: medium;
+}
