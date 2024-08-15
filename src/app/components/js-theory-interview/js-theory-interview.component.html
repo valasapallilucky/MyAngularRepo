@@ -1,4 +1,4 @@
 <ul *ngFor="let item of quesArr;let i=index;">
     <li (click)="getAnswer(item, i)">{{item.question}}</li>
-    <p *ngIf="item.isAsked">{{item.answer}}</p>
+    <p *ngIf="item.isAsked">{{item.answer}} </p>
 </ul>
